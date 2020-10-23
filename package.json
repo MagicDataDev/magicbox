@@ -1,0 +1,17 @@
+{
+  "name": "magicbox",
+  "version": "1.0.0",
+  "description": "utils for testing and publishing magicdata contracts",
+  "main": "magicbox.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "magicbox compile",
+    "publish:test": "magicbox migrate --network testnet",
+    "publish": "magicbox migrate --network mainnet"
+  },
+  "author": "magicdata",
+  "license": "ISC"
+}

@@ -14,5 +14,8 @@
     "publish": "magicbox migrate --network mainnet"
   },
   "author": "magicdata",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "magicbox-cli": "^1.0.2"
+  }
 }

@@ -10,8 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "magicbox compile",
     "compile:all": "magicbox compile --compile-all",
-    "publish:test": "magicbox migrate --network testnet",
-    "publish": "magicbox migrate --network mainnet"
+    "publish:test": "magicbox migrate --reset --network testnet",
+    "publish": "magicbox migrate --reset --network mainnet"
   },
   "author": "magicdata",
   "license": "ISC",
